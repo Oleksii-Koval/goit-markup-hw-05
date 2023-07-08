@@ -435,6 +435,26 @@
             ></li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-text footer-social-text">Subscribe</p>
+          <form class="subscribe-form" autocomplete="on">
+            <label class="subscribe-form-field">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="footer_subscribe_form"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button subscribe-button" type="submit"
+              >Subscribe
+
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -451,7 +471,7 @@
 
         <!-- form -->
 
-        <form class="modal-form" name="ordering_form" autocomplete="on">
+        <form class="modal-form" name="modal_ordering_form" autocomplete="on">
           <label class="modal-form-field">
             <span class="modal-form-label">Name</span>
             <input class="modal-form-input" type="text" name="user_name" />
@@ -503,11 +523,8 @@
                 <use href="./images/icons.svg#icon-property"></use>
               </svg>
             </span>
-
-            <p class="agree-text"
-              >I accept the terms and conditions of the
-              <a class="form-agree-link" href="#">Privacy Policy</a></p
-            >
+            <span class="agree-text">I accept the terms and conditions of the</span>
+            <a class="form-agree-link" href="#">Privacy Policy</a>
           </label>
 
           <!-- send button -->
