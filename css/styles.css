@@ -814,10 +814,13 @@ img {
   margin-bottom: 16px;
 }
 
+.form-item-container {
+  margin-bottom: 8px;
+}
+
 .modal-form-field {
   display: block;
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -869,7 +872,7 @@ img {
   fill: var(--filter-color);
 }
 
-.comment-container {
+.form-comment-container {
   margin-bottom: 16px;
 }
 
